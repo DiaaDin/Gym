@@ -100,18 +100,12 @@ header.active {
     color: $maincolor;
     margin-bottom: 1.5rem;
   }
-  img {
-    position: absolute;
-    height: 30rem;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    z-index: 0;
-  }
+  
   .social {
     position: absolute;
-    bottom: 2%;
+    bottom: 0;
     left: 2%;
+    z-index: 3;
     .fa-facebook-f {
       &:hover {
         color: #1877f2;
@@ -138,6 +132,14 @@ header.active {
       margin-right: 1rem;
     }
   }
+  .Fwave {
+    position: absolute;
+    width: 100%;
+    bottom: -1px;
+    left: 0;
+    right: 0;
+    z-index: 0;
+  }
 }
 
 /* features */
@@ -149,6 +151,8 @@ header.active {
   flex-wrap: wrap;
   background-color: $maincolor;
   text-align: center;
+  position: relative;
+  
   .box-container {
     display: flex;
     align-items: center;
@@ -442,6 +446,7 @@ header.active {
       margin-left: 1rem;
     }
   }
+  
 }
 @media (max-width: 450px) {
   html {
