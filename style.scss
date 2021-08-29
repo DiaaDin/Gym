@@ -103,7 +103,7 @@ header.active {
   
   .social {
     position: absolute;
-    bottom: 0;
+    bottom: 2%;
     left: 2%;
     z-index: 3;
     .fa-facebook-f {
@@ -128,17 +128,9 @@ header.active {
     }
     .fab {
       font-size: 2rem;
-      color: $seccolor;
+      color: $maincolor;
       margin-right: 1rem;
     }
-  }
-  .Fwave {
-    position: absolute;
-    width: 100%;
-    bottom: -1px;
-    left: 0;
-    right: 0;
-    z-index: 0;
   }
 }
 
