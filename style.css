@@ -120,9 +120,9 @@ header.active {
 .home h1 {
   width: 100%;
   text-align: center;
-  font-size: 5rem;
+  font-size: 4.5rem;
   color: #ffc93c;
-  margin-bottom: 5rem;
+  margin-bottom: 3rem;
 }
 
 .home .social {
