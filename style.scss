@@ -96,6 +96,8 @@ header.active {
   background-size: cover;
   background-repeat: no-repeat;
   h1 {
+    width: 100%;
+    text-align: center;
     font-size: 5rem;
     color: $maincolor;
     margin-bottom: 1.5rem;
