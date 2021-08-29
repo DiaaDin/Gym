@@ -118,6 +118,8 @@ header.active {
 }
 
 .home h1 {
+  width: 100%;
+  text-align: center;
   font-size: 5rem;
   color: #ffc93c;
   margin-bottom: 1.5rem;
