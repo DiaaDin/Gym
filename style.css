@@ -122,7 +122,7 @@ header.active {
   text-align: center;
   font-size: 5rem;
   color: #ffc93c;
-  margin-bottom: 1.5rem;
+  margin-bottom: 3rem;
 }
 
 .home .social {
@@ -496,7 +496,7 @@ header.active {
 /*media quries*/
 @media (max-width: 991px) {
   html {
-    font-size: 55%;
+    font-size: 52%;
   }
 }
 
