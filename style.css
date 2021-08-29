@@ -123,19 +123,11 @@ header.active {
   margin-bottom: 1.5rem;
 }
 
-.home img {
-  position: absolute;
-  width: 100%;
-  bottom: -1px;
-  left: 0;
-  right: 0;
-  z-index: 0;
-}
-
 .home .social {
   position: absolute;
-  bottom: 0;
+  bottom: 2%;
   left: 2%;
+  z-index: 3;
 }
 
 .home .social .fa-facebook-f:hover {
@@ -156,7 +148,7 @@ header.active {
 
 .home .social .fab {
   font-size: 2rem;
-  color: #151515;
+  color: #ffc93c;
   margin-right: 1rem;
 }
 
@@ -173,6 +165,7 @@ header.active {
       flex-wrap: wrap;
   background-color: #ffc93c;
   text-align: center;
+  position: relative;
 }
 
 .features .box-container {
